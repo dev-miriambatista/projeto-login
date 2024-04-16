@@ -1,1 +1,90 @@
-@charset "utf";
+@charset "utf-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 80vw;
+    }
+
+    #textlogin {
+        position: absolute;
+        top: 10%;
+        height: 100vh;
+        left: 30%;
+        text-align: center;
+    }
+
+
+    #imglogin {
+        position: relative;
+        top: 0px;
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #form {
+   
+
+        text-align: center;
+        display: block;
+        padding: 10px;
+        float: right;
+        left: 50%;
+        width: 50%;
+        height: 10vh;
+        text-align: left;
+        margin-top: 30vh;
+    }
+
+    input {
+        top: 50px;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    section#login {
+        width: 80vw;
+    }
+
+    #textlogin {
+        position: absolute;
+        top: 10%;
+        height: 100vh;
+        text-align: center;
+        float: left;
+        left: 3vw;
+    }
+
+
+    #imglogin {
+        position: relative;
+        top: 0px;
+        float: right;
+        width: 30%;
+        height: 100%;
+    }
+
+    #form {
+        text-align: center;
+        display: block;
+        padding: 10px;
+        float: right;
+        left: 50%;
+        width: 50%;
+        height: 10vh;
+        text-align: left;
+        margin-top: 30vh;
+    }
+
+    input {
+        height: 35px;
+        width: 250px;
+        margin: 2px 2px 2px 2px;
+        margin: 10px 10px 10px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+}

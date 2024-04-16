@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
@@ -13,36 +13,34 @@
 <body>
     <main>
         <section id="login">
-
+            <div id="imglogin"></div>
             <div id="textlogin">
-                <div id="imglogin"></div>
+                
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
-                    ambiente.</p>
+           <h4>Seja bem-vindo(a) novamente!</h4>      <p>Faça login para acessar sua conta e poder fazer as configurações no seu
+                    ambiente.</p></div>
+
                 <div id="form">
 
-                    <form action="login.php" method="post" autocomplete="off"></form>
+               <form action="login.php" method="post" autocomplete="on"></form>
 
-                    <span class="material-icons">person
-                        <label for="iemail"></label>
-                        <input type="email" name="email" id="iemail" placeholder="insira seu e-mail válido"></span>
-                    <span class="material-icons">vpnkey
-                        <label for="isen"></label>
+                   
+                     
+               <i class="material-icons">person
+                        <input type="email" name="email" id="iemail" placeholder="insira seu e-mail válido" autocomplete="email" required>
+                        <label for="iemail"></label></i>
+                        <br>
+    
+                        <i class="material-icons">vpn_key
                         <input type="password" name="password" id="isen" minlength="8"
-                            placeholder="insira sua senha de 8 digitos"></span>
-
+                            placeholder="insira sua senha de 8 digitos" autocomplete="current-password" required>
+                            <label for="isen"></label></i>
+<br>
                     <input type="submit" value="ENTRAR">
-
-                    <input type="reset" value="ESQUECI A SENHA">
+<br>
+                    <a href="esqueci.html">Esqueci a senha</a>
                 </div>
-
-            </div>
-
-
         </section>
-
-        </section>
-
     </main>
 </body>
 
