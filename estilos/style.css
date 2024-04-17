@@ -27,7 +27,8 @@ h1 {
     padding: 2px;
     text-align: center;
 }
-h4{
+
+h4 {
     text-align: center;
 }
 
@@ -44,8 +45,8 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: lightgreen;
-    width: 350px;
-    height: 600px;
+    width: 60vw;
+    height: 90vh;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px #28224e71;
@@ -61,9 +62,9 @@ section#login {
 #form {
     text-align: center;
     display: block;
-    padding: 10px;
-    width:40vw;
-
+    padding: 9px;
+    width: 51vw;
+    margin-left: -25px;
 }
 
 input {
@@ -77,30 +78,33 @@ input {
     text-align: center;
     margin-top: 3px;
 }
-    .material-icons {
-        width: 240px;
-        height: 7vh;
-        text-align: left;
-        margin: 2px;
-        background-color: #6a5acd;
-        border-radius: 5px;
-        text-align: center;
-        margin-left:50px;
-    }
-#submit{
+
+.material-icons {
+    width: 240px;
+    height: 7vh;
+    text-align: left;
+    margin: 2px;
     background-color: #6a5acd;
-    height: 35px;
-    width: 26vw;
-    margin: 2px 2px 2px 95px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#submit {
+    background-color: #6a5acd;
+    height: 25px;
+    width: 40vw;
+    margin: 2px 2px 2px 84px;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
 }
 
-#submit:hover{
+#submit:hover {
     background-color: #ffb27f;
     transition: 0.5;
-} 
-#esqueci.html{
+}
+a{
     text-align: center;
+    margin-left: 90px;
 }

@@ -1,8 +1,11 @@
 @charset "utf-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+
     section#login {
         width: 80vw;
+        height: 70vh;
     }
 
     #textlogin {
@@ -12,6 +15,7 @@
         left: 30%;
         text-align: center;
     }
+
     #imglogin {
         position: relative;
         top: 0px;
@@ -19,49 +23,69 @@
         width: 30%;
         height: 100%;
     }
+
     #form {
         text-align: center;
         display: block;
         padding: 10px;
         float: right;
-        left: 50%;
-        width: 50%;
+        left: 30%;
+        width: 60%;
         height: 10vh;
-        text-align: left;
+        text-align: center;
         margin-top: 30vh;
     }
+
     .inp01 {
-    width: 215px;
-    margin: 2px 2px 2px 2px;
-    margin: 10px 10px 10px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-    margin-top: 3px;
-    }
-    #submit{
-        background-color: #6a5acd;
-        height: 35px;
-        width: 26vw;
+        width: 215px;
         margin: 2px 2px 2px 2px;
+        margin: 10px 10px 10px 2px;
         cursor: pointer;
         border-radius: 5px;
         text-align: center;
+        margin-top: 3px;
+    }
+
+    input#submit {
+        background-color: #6a5acd;
+        height: 35px;
+        width: 27vw;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: -24px;
+    }
+
+    .material-icons {
+        width: 300px;
+        height: 7vh;
+        text-align: left;
+        margin: 2px;
+        background-color: #6a5acd;
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 50px;
     }
 }
 
 @media screen and (min-width: 993px) {
     section#login {
         width: 80vw;
+        height: 90vh;
     }
+
     #textlogin {
+        display: block;
         position: absolute;
+        font-size: 1.2em;
+        width: 55vw;
         top: 10%;
         height: 100vh;
         text-align: center;
-        float: left;
-        left: 3vw;
+        float: center;
+        
     }
+
     #imglogin {
         position: relative;
         top: 0px;
@@ -69,38 +93,47 @@
         width: 30%;
         height: 100%;
     }
+
     #form {
         text-align: center;
         display: block;
         padding: 10px;
         float: right;
-        left: 50%;
-        width: 50%;
+        left: 30%;
+        width: 60%;
         height: 10vh;
-        text-align: left;
+        text-align: center;
         margin-top: 30vh;
     }
+
     .inp01 {
-        height: 35px;
-        width: 21vw;
+        width: 215px;
         margin: 2px 2px 2px 2px;
         margin: 10px 10px 10px 2px;
         cursor: pointer;
         border-radius: 5px;
         text-align: center;
+        margin-top: 3px;
     }
-    #submit{
-    background-color: #6a5acd;
-    height: 35px;
-    width: 26vw;
-    margin: 2px 2px 2px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
+
+    input#submit {
+        background-color: #6a5acd;
+        height: 35px;
+        width: 16vw;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: -24px
     }
-    
-    #submit:hover{
-        background-color: #ffb27f;
-        transition: 0.5;
-    } 
+
+    .material-icons {
+        width: 300px;
+        height: 7vh;
+        text-align: left;
+        margin: 2px;
+        background-color: #6a5acd;
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 50px;
+    }
 }
