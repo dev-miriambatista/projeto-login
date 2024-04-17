@@ -60,11 +60,11 @@ section#login {
 }
 
 #form {
-    text-align: center;
+    text-align:left;
     display: block;
     padding: 9px;
     width: 51vw;
-    margin-left: -15px;
+    margin-left: -50px;
 }
 
 i {
@@ -77,38 +77,36 @@ i {
 
 input {
     display: inline-block;
-    margin-top: -10px;
-    height: 90%;
+    height: 85%;
     width: calc(100% - 32px );
     transform: translateY(-9px);
-    margin: 2px 2px 2px 2px;
     margin-left: 2px;
     cursor: pointer;
     border-radius: 7px;
     text-align: center;
-    margin-top: 3px;
     border: 0px;
 }
 
 .campo {
-    width: 320px;
-    height: 7vh;
+    width: 250px;
+    height: 40px;
     text-align: left;
     margin: 2px;
     background-color: #6a5acd;
     border-radius: 5px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 57px;
 }
 
 #submit {
     background-color: #6a5acd;
-    height: 25px;
-    width: 40vw;
-    margin: 2px 2px 2px 84px;
+    width: 250px;
+    height: 40px;
+    margin: 2px 2px 2px 50px;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    margin-left: 57px;
 }
 
 #submit:hover {
