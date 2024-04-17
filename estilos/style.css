@@ -67,20 +67,31 @@ section#login {
     margin-left: -15px;
 }
 
+i {
+    display: inline-block;
+    color: aliceblue;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 3em;
+}
+
 input {
-    margin-top: 5px;
-    height: 34px;
-    width: 200px;
+    display: inline-block;
+    margin-top: -10px;
+    height: 90%;
+    width: calc(100% - 32px );
+    transform: translateY(-9px);
     margin: 2px 2px 2px 2px;
     margin-left: 2px;
     cursor: pointer;
     border-radius: 7px;
     text-align: center;
     margin-top: 3px;
+    border: 0px;
 }
 
-.material-icons {
-    width: 240px;
+.campo {
+    width: 320px;
     height: 7vh;
     text-align: left;
     margin: 2px;

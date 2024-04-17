@@ -36,7 +36,7 @@
         margin-top: 30vh;
     }
 
-    .inp01 {
+    .input {
         width: 215px;
         margin: 2px 2px 2px 2px;
         margin: 10px 10px 10px 2px;
@@ -56,7 +56,7 @@
         margin-left: -24px;
     }
 
-    .material-icons {
+    .campo {
         width: 300px;
         height: 7vh;
         text-align: left;
@@ -106,14 +106,20 @@
         margin-top: 30vh;
     }
 
-    .inp01 {
-        width: 215px;
+    i{
+        display: inline-block;
+        color: aliceblue;
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .input {
+        width: 240px;
         margin: 2px 2px 2px 2px;
-        margin: 10px 10px 10px 2px;
+        margin: 0px 10px 10px 2px;
         cursor: pointer;
         border-radius: 5px;
         text-align: center;
-        margin-top: 3px;
     }
 
     input#submit {
@@ -126,7 +132,7 @@
         margin-left: -24px
     }
 
-    .material-icons {
+    .campo {
         width: 300px;
         height: 7vh;
         text-align: left;
