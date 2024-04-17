@@ -6,7 +6,6 @@
     }
 
     #textlogin {
-
         position: absolute;
         top: 10%;
         height: 100vh;
@@ -104,5 +103,4 @@
         background-color: #ffb27f;
         transition: 0.5;
     } 
-
 }
