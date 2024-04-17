@@ -45,7 +45,7 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: lightgreen;
-    width: 90vw;
+    width: 80vw;
     height: 70vh;
     border-radius: 20px;
     overflow: hidden;
@@ -64,7 +64,7 @@ section#login {
     display: block;
     padding: 9px;
     width: 51vw;
-    margin-left: -25px;
+    margin-left: -15px;
 }
 
 input {
