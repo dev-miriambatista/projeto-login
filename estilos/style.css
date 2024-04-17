@@ -55,7 +55,7 @@ section#login {
 #imglogin {
     display: block;
     background: #6a5acd url(../imagens/pexels-nothing-ahead-3571551.jpg);
-    height: 100px;
+    height:35%;
     background-size: cover;
 }
 
@@ -118,5 +118,6 @@ a{
     display: block;
     width: 100%;
     text-align: center;
+
     
 }
