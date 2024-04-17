@@ -13,8 +13,6 @@
         left: 30%;
         text-align: center;
     }
-
-
     #imglogin {
         position: relative;
         top: 0px;
@@ -22,7 +20,6 @@
         width: 30%;
         height: 100%;
     }
-
     #form {
         text-align: center;
         display: block;
@@ -34,10 +31,9 @@
         text-align: left;
         margin-top: 30vh;
     }
-
     .inp01 {
         height: 35px;
-        width: 250px;
+        width: 21vw;
         margin: 2px 2px 2px 2px;
         margin: 10px 10px 10px 2px;
         cursor: pointer;
@@ -45,32 +41,20 @@
         text-align: center;
     }
     #submit{
+        background-color: #6a5acd;
         height: 35px;
-        width: 150px;
+        width: 26vw;
         margin: 2px 2px 2px 2px;
-        margin-left: 75px;
         cursor: pointer;
         border-radius: 5px;
-        text-align: center
+        text-align: center;
     }
-
-    a{
-        height: 35px;
-        width: 150px;
-        margin: 2px 2px 2px 2px;
-        margin-left: 75px;
-        cursor: pointer;
-        border-radius: 5px;
-        text-align: center
-    }
-
 }
 
 @media screen and (min-width: 993px) {
     section#login {
         width: 80vw;
     }
-
     #textlogin {
         position: absolute;
         top: 10%;
@@ -79,8 +63,6 @@
         float: left;
         left: 3vw;
     }
-
-
     #imglogin {
         position: relative;
         top: 0px;
@@ -88,7 +70,6 @@
         width: 30%;
         height: 100%;
     }
-
     #form {
         text-align: center;
         display: block;
@@ -100,35 +81,28 @@
         text-align: left;
         margin-top: 30vh;
     }
-
     .inp01 {
         height: 35px;
-        width: 250px;
+        width: 21vw;
         margin: 2px 2px 2px 2px;
         margin: 10px 10px 10px 2px;
         cursor: pointer;
         border-radius: 5px;
         text-align: center;
     }
-
     #submit{
-        height: 35px;
-        width: 150px;
-        margin: 2px 2px 2px 2px;
-        margin-left: 75px;
-        cursor: pointer;
-        border-radius: 5px;
-        text-align: center
+    background-color: #6a5acd;
+    height: 35px;
+    width: 26vw;
+    margin: 2px 2px 2px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
     }
-
-    a{
-        height: 35px;
-        width: 150px;
-        margin: 2px 2px 2px 2px;
-        margin-left: 75px;
-        cursor: pointer;
-        border-radius: 5px;
-        text-align: center
-    }
+    
+    #submit:hover{
+        background-color: #ffb27f;
+        transition: 0.5;
+    } 
 
 }
