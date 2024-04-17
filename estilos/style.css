@@ -67,26 +67,24 @@ section#login {
 }
 
 input {
-    height: 5vh;
-    width:38vw;
+    margin-top: 5px;
+    height: 34px;
+    width: 117px;
     margin: 2px 2px 2px 2px;
     margin-left: 2px;
     cursor: pointer;
     border-radius: 7px;
     text-align: center;
+    margin-top: 3px;
 }
-
-.material-icons {
-    width: 45vw;
-    height: 7vh;
-    text-align: left;
-    margin: 2px;
-    background-color: #6a5acd;
-    border-radius: 5px;
-}
-
-
-
+    .material-icons {
+        width: 26vw;
+        height: 7vh;
+        text-align: left;
+        margin: 2px;
+        background-color: #6a5acd;
+        border-radius: 5px;
+    }
 #submit{
     background-color: #6a5acd;
     height: 35px;
